@@ -125,7 +125,7 @@ const UserProfile = () => {
                                 onClick={() => setShow(false)}
                                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                             >
-                                Edit profile
+                                Editar perfil
                             </button>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ const UserProfile = () => {
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
           <tr>
             <th scope="col" className="px-4 py-3">Order ID</th>
-            <th scope="col" className="px-4 py-3">See</th>
+            <th scope="col" className="px-4 py-3">Ver</th>
           </tr>
         </thead>
 
@@ -164,7 +164,7 @@ const UserProfile = () => {
                         <form onSubmit={handleSubmit}>
                             <div className="p-3">
                                 <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                    Name
+                                    Nombre
                                 </label>
                                 <input
                                     type="text"
@@ -173,13 +173,13 @@ const UserProfile = () => {
                                         setStateName(e.target.value)
                                     }
                                     className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="Name"
+                                    placeholder="Nombre"
                                 />
                             </div>
 
                             <div className="p-3">
                                 <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                    Last Name
+                                    Apellido
                                 </label>
                                 <input
                                     type="text"
@@ -188,7 +188,7 @@ const UserProfile = () => {
                                         setStateLast(e.target.value)
                                     }
                                     className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="Last name"
+                                    placeholder="Apellido"
                                 />
                             </div>
 
@@ -223,9 +223,9 @@ const UserProfile = () => {
                                             <div className="flex flex-col items-center justify-center pt-5 pb-6">
                                                 <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
                                                     <span className="font-semibold">
-                                                        Click to upload
+                                                        Click para cargar
                                                     </span>{" "}
-                                                    or drag and drop
+                                                    una imagen
                                                 </p>
                                                 <p className="text-xs text-gray-500 dark:text-gray-400">
                                                     SVG, PNG, JPG or GIF (MAX.
@@ -284,7 +284,7 @@ const UserProfile = () => {
 
                             <div className="flex mt-4 space-x-3 md:mt-6">
                                 <button className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">
-                                    Save changes
+                                    Guardar los cambios
                                 </button>
                             </div>
                         </form>

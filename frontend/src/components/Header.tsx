@@ -226,7 +226,7 @@ const Header = () => {
                 pl-10 text-sm text-gray-900 border border-gray-300 rounded-full 
                 bg-gray-50 dark:bg-gray-700 outline-none
                 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white  
-                " placeholder="Search..."/>
+                " placeholder="Buscar..."/>
             </div>
 
             <div className="space-y-1 px-2 pb-3 pt-2">
